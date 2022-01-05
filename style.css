@@ -13,6 +13,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -31,6 +32,7 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     background-image: linear-gradient(orange,tomato);
+    text-transform: uppercase;
 }
 .hire-me-button:hover{
     color: black;
