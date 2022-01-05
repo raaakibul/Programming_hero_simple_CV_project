@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.name-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-paragraph{
+    text-align: justify;
+}
+
+.hire-me-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange,tomato);
+}
+.hire-me-button:hover{
+    color: black;
+    background-image: linear-gradient(salmon, red);
+    border-radius: 6px;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
